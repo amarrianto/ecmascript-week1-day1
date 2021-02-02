@@ -6,5 +6,5 @@ function searchWord(word, value){
     }
     return false;
 }
-console.log(searchWord("aku suka javascript","k"));
+console.log(searchWord("aku suka java","k"));
 console.log(searchWord("aku suka javascript","z"));
