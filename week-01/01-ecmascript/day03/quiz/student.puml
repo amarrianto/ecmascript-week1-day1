@@ -1,0 +1,23 @@
+@startuml classdiagram-student
+
+class Student{
+    fullname: String
+    city : String
+    education : String
+    grade : Number
+    type : String
+    bootcamp : String
+    batch : String
+    skillpoint : Number
+}
+ 
+class Regular extends Student{
+    price : Number
+
+}
+
+class Beasiswa extends Student{
+    insentif : Number
+}
+
+@enduml
